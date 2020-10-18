@@ -14,7 +14,7 @@ SECRET_KEY = 'yble&x(zk#7#!dh2+asn^*qya6g-^@4(-i==_j7*+2bn9*-qfb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['school-research-api.herokuapp.com']
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )
