@@ -17,6 +17,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['school-research-api.herokuapp.com', '127.0.0.1','localhost']
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'https://school-consultation.herokuapp.com',
 )
 
 # Application definition
